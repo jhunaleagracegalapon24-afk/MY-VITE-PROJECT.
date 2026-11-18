@@ -15,7 +15,6 @@ document.querySelector('#app').innerHTML = `
     <button id="counter" type="button" class="counter"></button>
     <p>Click on the Vite logo to learn more</p>
   </div>
-  <script type="module" src="/src/main.js"></script>
 `;
 
 setupCounter(document.querySelector('#counter'));
